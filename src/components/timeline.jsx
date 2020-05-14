@@ -4,7 +4,11 @@ export default class Timeline extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="timeline">
+        <section
+          className="colorlib-experience"
+          data-section="timeline"
+          style={{ padding: 0 }}
+        >
           <div className="colorlib-narrow-content">
             <div className="row">
               <div

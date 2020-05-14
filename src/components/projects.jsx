@@ -4,7 +4,11 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-work" data-section="projects">
+        <section
+          className="colorlib-work"
+          data-section="projects"
+          style={{ padding: 0 }}
+        >
           <div className="colorlib-narrow-content">
             <div className="row">
               <div
@@ -365,7 +369,7 @@ export default class Projects extends Component {
                     <div className="con">
                       <h3>
                         <a href="https://github.com/abhijeetpalanki/FlashR">
-                          10. FlashR
+                          9. FlashR
                         </a>
                       </h3>
                       <span>
@@ -408,7 +412,7 @@ export default class Projects extends Component {
                     <div className="con">
                       <h3>
                         <a href="https://github.com/abhijeetpalanki/Converency">
-                          9. Converency
+                          10. Converency
                         </a>
                       </h3>
                       <span>

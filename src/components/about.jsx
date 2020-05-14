@@ -4,7 +4,11 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section
+          className="colorlib-about"
+          data-section="about"
+          style={{ padding: 0 }}
+        >
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-12">
@@ -54,7 +58,7 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="colorlib-about">
+        <section className="colorlib-about" style={{ padding: 0 }}>
           <div className="colorlib-narrow-content">
             <div className="row">
               <div
