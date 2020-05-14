@@ -28,7 +28,12 @@ export default class Sidebar extends Component {
                 <i className="icon-mail"></i> abhijeet.palanki9@gmail.com
               </span>
             </div>
-            <nav id="colorlib-main-menu" role="navigation" className="navbar">
+            <nav
+              id="colorlib-main-menu"
+              role="navigation"
+              className="navbar"
+              style={{ marginTop: '20px' }}
+            >
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active">
@@ -108,7 +113,15 @@ export default class Sidebar extends Component {
                 <small>
                   Made with <i className="icon-heart" aria-hidden="true" />
                   <br></br>
-                  Copyright &copy; 2020 | All Rights Reserved.
+                  <img
+                    src="logo.ico"
+                    alt="logo"
+                    style={{
+                      width: '50px',
+                      height: '50px',
+                    }}
+                  />{' '}
+                  Copyright &copy; 2020
                 </small>
               </p>
             </div>

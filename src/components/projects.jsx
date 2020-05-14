@@ -267,7 +267,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInTop"
               >
                 <div
                   className="project"
@@ -312,7 +312,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInBottom"
               >
                 <div
                   className="project"
@@ -398,7 +398,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
@@ -441,7 +441,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInTop"
               >
                 <div
                   className="project"
@@ -486,7 +486,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
@@ -526,18 +526,6 @@ export default class Projects extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12 animate-box">
-                <p>
-                  <a
-                    href="#home"
-                    className="btn btn-primary btn-lg btn-load-more"
-                  >
-                    <i className="icon-arrow-up" />
-                  </a>
-                </p>
               </div>
             </div>
           </div>
